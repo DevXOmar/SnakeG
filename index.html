@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snake Slither</title>
+    <title>Snake Slither!</title>
     <style>
         body {
             margin: 0;
@@ -131,7 +131,7 @@
 
             // Draw snake
             for (let i = 0; i < snake.length; i++) {
-                ctx.fillStyle = i === 0 ? 'red' : 'white';
+                ctx.fillStyle = 'red';
                 ctx.fillRect(snake[i].x, snake[i].y, box, box);
 
                 ctx.strokeStyle = 'black';
